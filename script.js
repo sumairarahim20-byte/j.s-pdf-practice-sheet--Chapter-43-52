@@ -50,46 +50,46 @@ function remove() {
 
 ///////////////     Answer       /////////////////////
 
-// function signup(x) {
-//      x.preventDefault();
-//     let name = document.getElementById('name')
-//     let email = document.getElementById('email')
-//     let pswd = document.getElementById('password')
-//     if (name.value && email.value && pswd.value) {
-//         console.log(name.value);
-//         console.log(email.value);
-//         console.log(pswd.value);
+function signup(x) {
+     x.preventDefault();
+    let name = document.getElementById('name')
+    let email = document.getElementById('email')
+    let pswd = document.getElementById('password')
+    if (name.value && email.value && pswd.value) {
+        console.log(name.value);
+        console.log(email.value);
+        console.log(pswd.value);
         
         
-//     } else {
-//         alert("please fill the information")
+    } else {
+        alert("please fill the information")
           
-//     }
-//     name.value =''
-//     email.value =''
-//     pswd.value =''
-// }
-// document.getElementById('form').addEventListener("submit",signup)
+    }
+    name.value =''
+    email.value =''
+    pswd.value =''
+}
+document.getElementById('form').addEventListener("submit",signup)
 
 
 /// 2.Read More and Read Less
 
 ///////////////     Answer       /////////////////////
 
-// function expand() {
-//     var long = `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos hic nostrum qui perferendis est, perspiciatis omnis natus, harum, excepturi tenetur corporis ipsam. Rem architecto atque labore ut quas quasi exercitationem vitae impedit voluptatem? Veniam sed amet vitae ullam placeat quis velit, fugiat itaque mollitia. Minima, tempora quos. Sed officia delectus commodi minima id corrupti! Eaque aperiam minima distinctio deserunt, omnis ipsa voluptas labore nihil ea, quaerat earum ex! Aut, perspiciatis!
-//    <a href="javaScript:voide(0)" onclick="short()">Read Less</a>
-//     `
-//     document.getElementById('para').innerHTML= long;
-// }
-// function short() {
-//     var short = `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos enim, ab cumque at mollitia quas et excepturi quos animi voluptates, magni inventore facere recusandae dicta aperiam nulla dolorem saepe rerum aut? Adipisci, eos. Vero doloremque sapiente eaque, est fugiat quasi, voluptatum ut officiis fuga dolores pariatur. Commodi delectus expedita libero!
-//     <a href="javaScript:voide(0)" onclick="expand()">Read More</a>
-//     `
-//     document.getElementById('para').innerHTML= short;
-// }
+function expand() {
+    var long = `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos hic nostrum qui perferendis est, perspiciatis omnis natus, harum, excepturi tenetur corporis ipsam. Rem architecto atque labore ut quas quasi exercitationem vitae impedit voluptatem? Veniam sed amet vitae ullam placeat quis velit, fugiat itaque mollitia. Minima, tempora quos. Sed officia delectus commodi minima id corrupti! Eaque aperiam minima distinctio deserunt, omnis ipsa voluptas labore nihil ea, quaerat earum ex! Aut, perspiciatis!
+   <a href="javaScript:voide(0)" onclick="short()">Read Less</a>
+    `
+    document.getElementById('para').innerHTML= long;
+}
+function short() {
+    var short = `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos enim, ab cumque at mollitia quas et excepturi quos animi voluptates, magni inventore facere recusandae dicta aperiam nulla dolorem saepe rerum aut? Adipisci, eos. Vero doloremque sapiente eaque, est fugiat quasi, voluptatum ut officiis fuga dolores pariatur. Commodi delectus expedita libero!
+    <a href="javaScript:voide(0)" onclick="expand()">Read More</a>
+    `
+    document.getElementById('para').innerHTML= short;
+}
 
-/// 3.  area of triangle
+/// 3.  area of triangle...
 
 ///////////////     Answer       /////////////////////
 
