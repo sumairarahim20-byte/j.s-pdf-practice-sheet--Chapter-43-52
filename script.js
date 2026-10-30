@@ -159,4 +159,4 @@ function save(btnn){
  targetrow.cells[2].innerText = document.getElementById('esub').value;
 
  document.getElementById('editform').style.display = 'none';
-}
+};
